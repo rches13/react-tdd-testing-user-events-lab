@@ -1,23 +1,24 @@
+import React from "react";
+import NewsletterForm from "./Components/NewsletterForm";
+
 function App() {
   return (
     <main>
-      <h1>Hi, I'm (your name)</h1>
+      <h1>Hi, I'm Rodgers</h1>
       <img alt="My profile pic" src="https://via.placeholder.com/350" />
       <h2>About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+      Front-end developer passionate about crafting engaging user experiences.
+        Specializing in HTML, CSS, and JavaScript, I love turning designs into
+        dynamic, user-friendly websites. Always learning and innovating.q
       </p>
 
       <div>
         <a href="https://github.com">GitHub</a>
         <a href="https://linkedin.com">LinkedIn</a>
       </div>
+
+      <NewsletterForm />
     </main>
   );
 }
